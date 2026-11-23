@@ -1,0 +1,13 @@
+v 4
+file "O:\Coding Projects\CO_project\" "tb_datapath_r_type.vhd" "b9203590b6d7274687d783d00e533a9a0a7ca2dc" "20261122134438.519":
+  entity tb_datapath_r_type at 1( 0) + 0 on 65;
+  architecture sim of tb_datapath_r_type at 7( 104) + 0 on 66;
+file "O:\Coding Projects\CO_project\" "regfile.vhd" "994c5bd91427d6e226819c39b9b99a573a408737" "20261122134438.442":
+  entity regfile at 1( 0) + 0 on 61;
+  architecture behavioral of regfile at 15( 383) + 0 on 62;
+file "O:\Coding Projects\CO_project\" "alu32.vhd" "2ea8df2a9256a22825703c1e70652066a59682e7" "20261122134438.404":
+  entity alu32 at 1( 0) + 0 on 59;
+  architecture synth of alu32 at 12( 320) + 0 on 60;
+file "O:\Coding Projects\CO_project\" "datapath_r_type.vhd" "4df8f69aeec8a0a6164816ff1d0edd61528e69e8" "20261122134438.482":
+  entity datapath_r_type at 1( 0) + 0 on 63;
+  architecture structural of datapath_r_type at 16( 447) + 0 on 64;

@@ -1,4 +1,3 @@
--- 32-bit ALU
 LIBRARY IEEE;
 USE IEEE.STD_LOGIC_1164.ALL;
 USE IEEE.STD_LOGIC_UNSIGNED.ALL;
@@ -24,6 +23,6 @@ BEGIN
                ("0000000000000000000000000000000" & S(31)) WHEN aluop = "0111" ELSE
                X"00000000";
 
-    zflag <= '1' WHEN S = X"00000000" ELSE '0';
+    zflag <= '1' WHEN dataout = X"00000000" ELSE '0';
 
 END synth;
